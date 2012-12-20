@@ -1,4 +1,15 @@
-<header class="welcome-header">
-	<h1>${header}</h1>
-	<p>${subheader}</p>
-</header>
+<form method="GET" action="foo">
+    <label>First name: <input type="text" name="firstName"></label>
+    <label>Last name: <input type="text" name="lastName"></label>
+    <fieldset>
+        <label>Male<input type="radio" name="gender" value="m"></label>
+        <label>Female<input type="radio" name="gender" value="f"></label>
+    </fieldset>
+    <!--<label>Gender-->
+        <!--<select name="gender">-->
+            <!--<option value="m">Male</option>-->
+            <!--<option value="f">Female</option>-->
+        <!--</select>-->
+    <!--</label>-->
+    <input type="submit" value="submit">
+</form>
